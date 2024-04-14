@@ -36,6 +36,7 @@ const List = [
 const MealsList = () => {
   const fullList = List.map((food) => (
     <MealItem
+      id={food.id}
       key={food.id}
       name={food.name}
       description={food.description}
